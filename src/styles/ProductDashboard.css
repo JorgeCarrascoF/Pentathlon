@@ -1,10 +1,12 @@
 .ProductDashboard {
+    overflow: hidden;
     width: 100%;
-    margin: 20px;
+    margin-top: 1px;
     height: 92vh;
-    background-color: rgba(255, 255, 255, 0.972);
+    background-color: #e7e6e0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    gap: 1px;
+    grid-template-columns: repeat(5, calc(20%));
+    grid-template-rows: repeat(2, 50%);
 }
 

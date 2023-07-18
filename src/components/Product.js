@@ -7,7 +7,7 @@ export const Product = ({title, subname, quantity, img, click}) => {
     return(
         <div className='Product' id={title}>
             <h3>{subname}</h3>
-            <span>{title}</span>
+            <span>{title.toUpperCase()}</span>
             {img}
             <div className="quantity">
                 <img src={substract} onClick={click} alt='substract' id='substract'></img>

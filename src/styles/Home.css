@@ -49,10 +49,10 @@
     width: 10px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #4464AD;
     transition: 0.1s ease-in-out;
 }
 
 .circle.selected {
-    background-color: rgb(40, 40, 40);
+    background-color:  #4464AD;
 }

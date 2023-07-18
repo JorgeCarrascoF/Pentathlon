@@ -2,29 +2,99 @@
     width: 100%;
     margin: 0;
     height: 92vh;
-    background-color: rgba(255, 255, 255, 0.972);
+    background-color: #e7e6e0;
     display: flex;
 }
 
 .products {
     width: 80%;
-    color: black;
+    color: white;
+    overflow-y: auto;
 }
 
 .cart{
     width: 20%;
     border-left: 1px solid white;
     border-top: 1px solid white;
-    background-color: rgb(58, 58, 247);
+    background-color: #4464AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cart img {
+    height: 150px;
+    padding: 50px 0;
+    border-bottom: 1px solid white;
+}
+
+.cart > span{
+    margin: 30px;
+    font-weight: 500;
+}
+
+.totalPay{
+    width: 80%;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.totalPay span {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.emptyCart {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bill > span {
+    text-align: left;
+    margin: 5px 0 5px 25px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.bill > button {
+    margin: 25px 0 15px 0;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    background: none;
+    border: 2px solid white;
+    font-size: 1.2rem;
 }
 
 .cartProduct{
-    height: 130px;
+    height: 16.53%;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:white;
+    background-color:#6C87C6;
+    border-top: 1px solid white;
+}
+
+.cartProduct .name {
+    font-weight: 500;
+}
+
+.cartProduct span{
+    font-size: 1.4rem;
 }
 
 .cartProduct > div {
@@ -39,15 +109,29 @@
     display: flex;
     justify-content: start;
     font-size: 1.5rem;
-    color: black;
 }
 
-.cartProduct img {
-
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.products img{
-    max-height: 150px;
-    max-width: 150px;
-    border-radius: 15px;
+.quantity > * {
+    margin: 10px;
+}
+
+.cartProduct .quantity > img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.cartProduct .photo .img{
+    height: 90%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    border-radius: 10px;
 }

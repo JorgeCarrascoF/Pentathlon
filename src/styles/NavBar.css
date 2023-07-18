@@ -1,7 +1,7 @@
 .menu {
     height: 8vh;
     width: 100%;
-    background-color: rgb(58, 58, 247);
+    background-color: #4464AD;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     padding: 3px 10px;
     transition: 0.1s linear;
 }
-.menu > a:hover{
+.menu > div > a:hover{
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
