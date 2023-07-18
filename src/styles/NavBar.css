@@ -1,0 +1,24 @@
+.menu {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(58, 58, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu > span {
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.menu > div > span {
+    font-size: 1.3rem;
+    margin: 15px;
+    background-color: white;
+    color: rgb(58, 58, 247);
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}

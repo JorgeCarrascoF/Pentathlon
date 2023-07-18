@@ -1,0 +1,58 @@
+.Home {
+    height: 80%;
+    aspect-ratio: 3 / 2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home img{
+    width: 90%;
+    border-radius: 15px;
+    pointer-events: none;
+}
+
+.Home button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.5;
+    transition: 0.1s ease-in;
+}
+
+.Home button:hover{
+    opacity: 1;
+}
+
+.gallery {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-radius: 15px;
+}
+
+.bullets{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle{
+    margin: 0px 5px;
+    width: 10px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 0.1s ease-in-out;
+}
+
+.circle.selected {
+    background-color: rgb(40, 40, 40);
+}
